@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  height: 300px;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin-left: 449px;
+  position: relative;
+  bottom: 200px;
+  width: 640px;
+}
+
+h1 {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 15px;
+  color: #FFFFFF;
+  margin-right: 360px;
+}
+
+input {
+  margin-top: 40px;
+  width: 640px;
+  height: 64px;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border-radius: 5px;
+  padding: 0px 0px 0px 24px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  
+}
+
+.tarefas {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-color: #fff;
+  box-shadow: 0px 35px 50px -15px rgba(194, 195, 214, 0.5);
+  border-radius: 5px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+li {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: -0.25px;
+  color: #494C6B;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-top: 5px;
+  padding-left: 24px;
+  width: 640px;
+  
+}
+
+span {
+  cursor: pointer;
+}
+
+
+.linha {
+  width: 640px;
+  height: 1px;
+  margin-top: 19px;
+  background-color: #E3E4F1;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  margin-right: 24px;
+  color: #494C6B;
+}
+
+footer {
+  height: 50px;
+  display: flex;
+  white-space: nowrap;
+  flex-direction: row;
+  margin-right: 100px;
+  justify-content: space-around;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: -0.194444px;
+  color: #9495A5;
+  align-items: center;
+}
+
+.three {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0px 20px 0px 46px;
+}
+
+.three > span {
+  gap: 10px;
+  cursor: pointer;
+}
+
+.limpar-completadas {
+  font-weight: normal;
+}
+
+.limpar-completadas:hover{
+  color: #494C6B;
+}
+
+.three-span:hover {
+  color: #494C6B!important;
+}
